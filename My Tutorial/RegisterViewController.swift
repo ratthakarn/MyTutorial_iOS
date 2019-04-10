@@ -20,7 +20,10 @@ class RegisterViewController: UIViewController {
         // Do any additional setup after loading the view.
     } //Main Method
     
+    
 
+    
+    
     
     
     @IBAction func backButton(_ sender: UIBarButtonItem) {
