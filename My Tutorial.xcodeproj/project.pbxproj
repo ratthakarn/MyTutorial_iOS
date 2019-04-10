@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F34C4605225D9327001B4EB7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34C4604225D9327001B4EB7 /* RegisterViewController.swift */; };
 		F3C7027A225C6BFD00248755 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C70279225C6BFD00248755 /* AppDelegate.swift */; };
 		F3C7027C225C6BFD00248755 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C7027B225C6BFD00248755 /* ViewController.swift */; };
 		F3C7027F225C6BFD00248755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C7027D225C6BFD00248755 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F34C4604225D9327001B4EB7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		F3C70276225C6BFD00248755 /* My Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3C70279225C6BFD00248755 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3C7027B225C6BFD00248755 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				F3C70279225C6BFD00248755 /* AppDelegate.swift */,
 				F3C7027B225C6BFD00248755 /* ViewController.swift */,
+				F34C4604225D9327001B4EB7 /* RegisterViewController.swift */,
 				F3C7027D225C6BFD00248755 /* Main.storyboard */,
 				F3C70280225C6C0200248755 /* Assets.xcassets */,
 				F3C70282225C6C0200248755 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F34C4605225D9327001B4EB7 /* RegisterViewController.swift in Sources */,
 				F3C7027C225C6BFD00248755 /* ViewController.swift in Sources */,
 				F3C7027A225C6BFD00248755 /* AppDelegate.swift in Sources */,
 			);
