@@ -12,7 +12,12 @@ class RegisterViewController: UIViewController {
 
     
     
+    @IBOutlet weak var nameTextField: UITextField!
     
+    @IBOutlet weak var emailTextField: UITextField!
+    
+    
+    @IBOutlet weak var passwordTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +27,8 @@ class RegisterViewController: UIViewController {
     
     
 
+    @IBAction func uploadButton(_ sender: UIBarButtonItem) {
+    }
     
     
     

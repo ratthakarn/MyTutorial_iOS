@@ -139,7 +139,11 @@
                                                 <action selector="backButton:" destination="kF1-dL-qwF" id="a9T-1x-7Bp"/>
                                             </connections>
                                         </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" image="CloudUpload" id="k73-tR-o1W"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Item" image="CloudUpload" id="k73-tR-o1W">
+                                            <connections>
+                                                <action selector="uploadButton:" destination="kF1-dL-qwF" id="9Jf-NH-VLO"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -196,6 +200,9 @@
                         <viewLayoutGuide key="safeArea" id="XPq-zH-CwS"/>
                     </view>
                     <connections>
+                        <outlet property="emailTextField" destination="mFd-12-fDv" id="ino-Ub-LOb"/>
+                        <outlet property="nameTextField" destination="Ce9-8h-R32" id="j2L-eJ-8q2"/>
+                        <outlet property="passwordTextField" destination="S58-OG-A6E" id="va6-of-hLZ"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="backHome" id="vnd-OL-ECf"/>
                     </connections>
                 </viewController>
